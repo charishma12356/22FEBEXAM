@@ -1,23 +1,19 @@
-ul {
-    list-style-type: none;
-    padding: 0;
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
-
-li {
-    margin: 5px 0;
+h1 {
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
-
-a {
-    text-decoration: none;
-    color: blue;
-    font-size: 18px;
-    font-weight: bold;
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
 }
-
-a:hover {
-    color: red;
-}
-
-a:active {
-    color: green;
+.card {
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
 }
