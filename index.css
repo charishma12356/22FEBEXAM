@@ -71,7 +71,22 @@ p {
             }
 
 
-            
+            button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+
+
             .gallery {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
